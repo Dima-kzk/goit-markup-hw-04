@@ -300,6 +300,19 @@ img{
     letter-spacing: 0.02em;
 }
 
+.features-svg{
+    padding: 24px 100px;
+    margin-bottom: 8px;
+    background-color: var(--cloud);
+}
+
+.features-icon{
+    width: 64px;
+    height: 64px;
+}
+
+
+
 /* product */
 
 .product{
@@ -349,6 +362,7 @@ img{
 
 .team-job{
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-list{
@@ -360,8 +374,59 @@ img{
     background-color: var(--white);
 }
 
+.social-list{
+    display: flex;
+    justify-content: center;
+}
 
+.social-item + .social-item{
+    margin-left: 24px;
+}
 
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--iris);
+    border-radius: 50%;
+}
+
+.social-icon{
+    width: 16px;
+    height: 16px;
+}
+
+/* customers */
+
+.customers-title{
+    color: var(--navy-blue);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.customers-list{
+    display: flex;
+    justify-content: center;
+}
+
+.customers-item{
+    height: 88px;
+}
+
+.customers-link{
+    display: flex;
+}
+
+.customers-icon{
+    width: 104px;
+    height: 56px;
+}
 
 /* portfolio */
 
