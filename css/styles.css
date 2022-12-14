@@ -232,6 +232,7 @@ img {
 /*hero*/
 
 .hero {
+    max-width: 1440px;
     background: var(--navy-blue);
 }
 
@@ -325,6 +326,7 @@ img {
 
 .features-list {
     display: flex;
+    gap: 24px;
 }
 
 .features-text,
@@ -334,7 +336,10 @@ img {
 }
 
 .features-svg {
-    padding: 24px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
     margin-bottom: 8px;
     background-color: var(--cloud);
 }
@@ -342,6 +347,10 @@ img {
 .features-icon {
     width: 64px;
     height: 64px;
+}
+
+.features-list .item{
+    width: 100%;
 }
 
 /* product */
